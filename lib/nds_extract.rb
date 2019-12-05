@@ -41,6 +41,7 @@ def total_gross(source)
     if directors_totals(source).include?(list_of_directors(source)[i])
       total += directors_totals(source)
   end
+  total
 end
 
 # Write this implementation
