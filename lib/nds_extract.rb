@@ -40,7 +40,7 @@ def total_gross(source)
   # i = 0
   # while i < directors_totals(source).length do
   #   if directors_totals(source).include?(list_of_directors(source)[i])
-  #     total += directors_totals(source)
+  #     puts "hola"
   # end
   # total
 end
