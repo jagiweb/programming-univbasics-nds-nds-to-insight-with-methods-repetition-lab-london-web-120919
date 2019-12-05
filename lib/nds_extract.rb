@@ -41,7 +41,7 @@ def total_gross(source)
   #   total += gross_for_director(source)[list_of_directors[i]]
   # end
   # total
-  puts gross_for_director(source)[list_of_directors[i]]
+  puts gross_for_director(source)[list_of_directors(source)[i]]
 end
 
 # Write this implementation
