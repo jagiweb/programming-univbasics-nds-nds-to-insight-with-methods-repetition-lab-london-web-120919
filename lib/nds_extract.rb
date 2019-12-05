@@ -35,13 +35,14 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  total = 0
-  i = 0
-  while i < directors_totals(source).length do
-    if directors_totals(source).include?(list_of_directors(source)[i])
-      total += directors_totals(source)
-  end
-  total
+  puts list_of_directors(source)[0]
+  # total = 0
+  # i = 0
+  # while i < directors_totals(source).length do
+  #   if directors_totals(source).include?(list_of_directors(source)[i])
+  #     total += directors_totals(source)
+  # end
+  # total
 end
 
 # Write this implementation
